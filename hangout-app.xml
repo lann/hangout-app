@@ -19,10 +19,11 @@
   </ModulePrefs>
   <Content type="html"><![CDATA[     
 <html>
-<link rel="stylesheet" href="//localhost/hangout-app.css">
+<link rel="stylesheet" href="http://localhost/hangout-app.css">
 <body>
 <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
-<script src="//localhost/hangout-app.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://localhost/hangout-app.js"></script>
 </body>
   ]]></Content>
 </Module>
