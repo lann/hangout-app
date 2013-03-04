@@ -12,18 +12,17 @@
  * License for the specific language governing permissions and limitations under
  * the License
 -->
-        <ModulePrefs title="Hangout Starter">
-                <Require feature="rpc" />
-                <Require feature="views" />
-                <Require feature="locked-domain" />
-        </ModulePrefs>
-        <Content type="html"><![CDATA[     
-
+  <ModulePrefs title="Hangout Starter">
+    <Require feature="rpc" />
+    <Require feature="views" />
+    <Require feature="locked-domain" />
+  </ModulePrefs>
+  <Content type="html"><![CDATA[     
 <html>
+<link rel="stylesheet" href="//localhost/hangout-app.css">
 <body>
 <script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
-<script src="//raw.github.com/lann/hangout-app/master/hangout-app.js"></script>
+<script src="//localhost/hangout-app.js"></script>
 </body>
-]]>
-</Content>
+  ]]></Content>
 </Module>
