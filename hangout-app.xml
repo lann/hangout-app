@@ -21,8 +21,8 @@
 
 <html>
 <body>
-<script src="https://hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
-<script src="hangout-app.js"></script>
+<script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.4"></script>
+<script src="//raw.github.com/lann/hangout-app/master/hangout-app.js"></script>
 </body>
 ]]>
 </Content>
